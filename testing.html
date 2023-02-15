@@ -44,41 +44,15 @@ session_start();
 				<li><a href="aboutus.php">About Us</a></li> 
 				<li><a href="contact.php">Contact</a></li> 
 				
-                <?php
-				if(isset($_SESSION['login_user']))
-                { ?>
                 <div class="dropdown">
                     <button class="dropbtn" onclick="myFunction()">My Profile
                     <!--<ion-icon name="caret-down-outline" size="small"></ion-icon>-->
                     </button>
                     <div class="dropdown-content" id="myDropdown">
-                    <?php
-				    if($_SESSION['login_type']=='customer'){  ?>
+ 
 				        
                     <a href="myposts.php">MY POSTS</a>
-                    <?php
-                    } else {
-                    ?>    
-                        <a href="posts.php">POSTS</a>
-                        <a href="bidding.php">MY BIDS</a>
-                    <?php    
-                        } 
-                    ?>
-                    
-                    <?php
-				    if($_SESSION['login_type']=='customer'){  ?>
-                    <a href="myprofile.php">MY ACCOUNT</a>
-                    <?php
-                    } else {
-                    ?>
-                        <a href="profile.php">MY ACCOUNT</a>
-                    <?php    
-                        } 
-                    ?>
-                    <a href="logout.php">LOGOUT</a>
-                   </div>
-              </div> 
-              <?php } ?>
+                   
             </ul>
             <label for="nav-toggle" class="icon-burger">
             <div class="line"></div>    
