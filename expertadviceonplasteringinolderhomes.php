@@ -7,44 +7,14 @@ session_start();
 	<head>
 	<meta name="viewport" content="width=devide-width, initial-scale=1.0">
 		
-	<link rel="stylesheet" type="text/css" href="./vendors/css/grid.css">
-	<link rel="stylesheet" type="text/css" href="./vendors/css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="./resources/css/stylesheet12.css">
-	<link rel="stylesheet" type="text/css" href="./resources/css/mediaqueries.css">
+	<link rel="stylesheet" type="text/css" href="grid.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet12.css">
+	<link rel="stylesheet" type="text/css" href="mediaqueries.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-193749357-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'UA-193749357-1');
-    </script>
-    <!-- End Global site tag  -->
-    
-
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2858308207727380');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=2858308207727380&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
+	
     
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@0,100;0,300;0,400;1,300%26Roboto:wght@0,100;0,300;0,400;1,300%26display=swap" rel="stylesheet">
 	<title> BuildonClick Blogs</title>
@@ -54,7 +24,7 @@ session_start();
 	    
 	 <!--Whatsapp-->    
     <div class="chat_icon">
-        <a href="https://wa.me/917061882678" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a href="#" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
     </div>
 
     
@@ -176,27 +146,52 @@ session_start();
       </div>
     </section>
 
+<footer>
+<div class="row">
+  <div class="col span-2-of-4">
+    <img class="footer-logo" src="./resources/css/svg/logo.png">
+    <p class="paragraph" style="color:white; text-align:justify;">
+    Building your house with BUILDONCLICK means innovative planning and meticulous execution. We connect homeowners with top real estate builders and contractors using cutting-edge technology like 3D designs and home automation. At BUILDONCLICK, we adhere to best practices for clients by providing reliable service based on four basic values: quality, affordability, timeliness, responsiveness. Our success stems from these guiding principles.
+    </p>
+  </div>
+  <div class="col span-2-of-4">
+   <div class="col span-2-of-4">
+    <h5 style="color:gray;"></h5>
+   <ul class="footer_links">
+                 <li><a class="a_link" href="index.php">Home</a></li>    
+                <li><a class="a_link" href="services.php">Services</a></li>
+                <li><a class="a_link" href="blogs.php">Blogs</a></li>
+                <li><a class="a_link" href="aboutus.php">About Us</a></li>
+              <li><a class="a_link" href="contact.php">Contact</a></li>
+          <li><a class="a_link" href="./resources/data/privacypolicy.html">Privacy Policy</a></li>
+          <li><a class="a_link" href="./resources/data/termsandconditions.html">Terms & Conditions</a></li>
+      </ul>
+   </div>
+   <div class="col span-2-of-4">
+    <h4 style="color:white; text-decoration:underline;">Follow Us On</h4>
+   <ul class="footer_links_social">
+            <li><a class="a_link" href="https://www.facebook.com/profile.php?id=100082558837084" target="_blank"><ion-icon name="logo-facebook" size="large" color="#fff"></ion-icon></a></li>
+            <li><a class="a_link" href="https://www.instagram.com/buildonclick/?igshid=YmMyMTA2M2Y%3D" target="_blank"><ion-icon name="logo-instagram" size="large" color="#fff"></ion-icon></a></li>
+            <li><a class="a_link" href="https://twitter.com/build_click?t=cL9C6Zfz22qMGJZb8UhBog&s=09" target="_blank"><ion-icon name="logo-twitter" size="large" color="#fff"></ion-icon></a></li>
+            <li><a class="a_link" href="https://www.linkedin.com/in/build-on-click-851899247"target="_blank"><ion-icon name="logo-linkedin" size="large" color="#fff"></ion-icon></a></li>
+      </ul>
+   </div>
+  </div>
+</div>
+<hr class="footer_line" style="background-color:white;">
+  <div class="row">
+      <p style="color:white;">
+          Copyright &copy;2022 by BuildOnClick. All rights reserved.
+      </p>
+  </div>	
+  </footer>
+ 
+
           
          
 
-    <?php include ('footer.php')?>
-		<script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
-        
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(e) {
-          if (!e.target.matches('.dropbtn')) {
-          var myDropdown = document.getElementById("myDropdown");
-            if (myDropdown.classList.contains('show')) {
-              myDropdown.classList.remove('show');
-            }
-          }
-        }
-        </script>
+   
+	
 	    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 	</body>
 
