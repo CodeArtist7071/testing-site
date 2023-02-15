@@ -1,0 +1,651 @@
+
+/*implemented by yogesh*/
+@media only screen and (max-width:1300px){
+    .queryform{
+        display: none;
+    }
+    /*----------------------------------------------*/
+     /*  aboutus page styled by yogesh*/
+     /*----------------------------------------------*/
+     .team_mobo_one{
+        opacity: 1;
+      }
+     .team_mobo{
+        opacity: 0;
+        display: none;
+    }
+    
+}
+  
+/*Big tablet to 1200px widths smaller than the 1140px row*/
+@media only screen and (max-width: 1200px){
+	.build-text-box{
+
+	width: 100%;
+	padding: 0 2%;
+	}
+	
+	.row{ padding: 0 2%; }
+
+
+    /*--------------------------*/
+    /*--------implemented by yogesh---------*/
+    /*---------------------*/
+    .p-post-web{
+        display: block;
+    }
+    .p-post-mobile{
+        display:none;
+    }
+    .queryform{
+        display: none;
+    }
+    
+    
+     /*----------------------------------------------*/
+     /*  aboutus page styled by yogesh*/
+     /*----------------------------------------------*/
+     .team_mobo_one{
+        opacity: 1;
+      }
+     .team_mobo{
+        opacity: 0;
+        display: none;
+    }
+   
+
+}
+
+/*small tablet to big tablet 768 to 1023px */
+@media only screen and (max-width: 1023px){
+	body{ font-size: 18px; }
+	section { padding: 60px 0; }
+	.steps-box { margin-top: 10px; }
+	.steps-box:last-child { margin-top: 10px; }
+	.work-steps { margin-bottom: 40px; }
+	.work-steps:last-of-type { margin-bottom: 60px; }
+	.steps-screen{ width: 60%;}
+	.contact-form { width: 80%; }
+	
+	    .blog-img{
+    width: 320px;
+	height: 160px;
+}
+
+.center-img{
+	width: 640px;
+	height: 320px;
+
+}
+
+.how-img{
+	width: 480px;
+	height: 720px;
+
+}
+
+      /*--------------------------*/
+    /*--------implemented by yogesh---------*/
+    /*---------------------*/
+    .p-post-web{
+        display: block;
+    }
+    .p-post-mobile{
+        display:none;
+    }
+    .queryform{
+        display:none;
+    }
+
+    /*----------------------------------------------*/
+     /*  aboutus page styled by yogesh*/
+     /*----------------------------------------------*/
+     .team_mobo_one{
+        opacity: 1;
+      }
+     .team_mobo{
+        opacity: 0;
+        display: none;
+    }
+   
+	
+}
+
+
+/*small phones to small tablets 481 to 767px */
+@media only screen and (max-width: 767px){
+    /*.navbar a {padding: 8px 10px;}*/
+    /* .otherpages{height: 40vh;}*/
+	 /*body{ font-size: 100%; }*/
+	 .mainpage{
+	     background-size: 767px 722px ;
+	 }
+	 .main-nav{
+	
+    	float:left;
+    	list-style: none;
+    	/*margin-top: 40px;*/
+    	
+    
+    }
+    
+    .main-nav li{
+    	display: inline-block;
+    	margin-left: 20px;
+    }
+	 
+	 section { padding: 30px 0;}
+	 a{ font-size: 14px;}
+	 p{font-size: 90%;}
+	 .benefits p{
+	    font-size: 90%; 
+	 }
+	 h4{font-size: 110%;}
+	 h2{font-size:140%;}
+	 h5{font-size: 90%;}
+	 h1{font-size: 90%;}
+	 h3{font-size: 120%;}
+	 .citynames li { font-size : 100%}
+	 
+
+	.row,
+	.hero-text-box { padding: 0 4%;}
+	.col {width: 100% }
+	.steps-screen{ width: 40%;}
+	.work-steps { margin-bottom: 20px; }
+	.work-steps:last-of-type { margin-bottom: 20px; }
+	.contact-form {font-size: 90%; }
+	.main-nav{font-size:80%;}
+	.loginbox{font-size:90%; width: 70%; left:15%}
+	.registerbox{font-size:90%; width: 70%; height: 70%; top:30%; left:15%}
+	.pregisterbox{font-size:90%;}
+	 .slide-btn{
+        width: .73rem;
+    height: .73rem;
+    }
+    nav .links{
+        float:none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top:100px;
+        bottom: 100%;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        background-color: rgba(0,0,0,0.8);
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+    
+    nav .links a{
+        color: white;
+    }
+    
+    nav .icon-burger{
+        display:block;
+    }
+    
+    nav :checked ~ .links{
+        bottom: 0;
+        
+    }
+    
+/*
+	.work-steps p{
+	font-size: 100%;
+	line-height: 0%;
+}
+*/
+
+.center-img{
+	width: 512px;
+	height: 256px;
+
+
+}
+
+.how-img{
+	width: 384px;
+	height: 576px;
+
+}
+
+
+	  /*--------------------------*/
+    /*--------implemented by yogesh---------*/
+    /*---------------------*/
+    .p-post-web{
+        display:none;
+    }
+    .p-post-mobile{
+        display:block;
+    }
+    .showform{
+        display:block;
+    }
+       /*--------------------------*/
+    /*--------footer css implemented by yogesh---------*/
+    /*---------------------*/
+    .footer_links li a{
+        font-size: 17.5px;
+    }
+    .footer_links{
+        display: block;
+    }
+    .footer_links_social{
+       display: flex;
+       align-items: center;
+       justify-content:space-around;
+        
+        
+    }
+    
+    /*----------------------------------------------*/
+     /*  aboutus page styled by yogesh*/
+     /*----------------------------------------------*/
+     .team_mobo_one{
+        opacity: 1;
+      }
+     .team_mobo{
+        opacity: 0;
+        display: none;
+    }
+     /*----------------------------------------------*/
+     /*  our projects styled by yogesh*/
+     /*----------------------------------------------*/
+     .carousel img{
+        width: calc(100% / 2);
+      }
+   
+}
+
+
+/*Small Phones 0 to 480px */
+@media only screen and (max-width: 480px){
+    /*.build-text-box{top:30%;}*/
+    /*.navbar a {float:left;*/
+    /*    padding: 5px 5px;}*/
+    /* .otherpages{height: 40vh;}*/
+     /*body{ font-size: 100%; }*/
+     /*.mainpage{height:80vh;}*/
+     .mainpage{
+	     background-size:cover ;
+	 }
+    .otherpages{height: 50vh;} 
+	.main-nav{font-size:70%; margin-top: 10px;}
+	/*.main-nav li{margin-left: 10px;}*/
+	 a{ font-size: 14px;}
+	 p{font-size: 80%;}
+	 h4{font-size: 100%;}
+	 h2{font-size:160%;}
+	 h5{font-size: 90%;}
+	 h1{font-size: 90%;}
+	 h3{font-size: 120%;}
+	 .btn:link,
+    .btn:visited,
+    input[type=submit]
+    {
+        padding: 4px 12px;
+    }
+    
+    
+    .btn-ghost:link,
+    .btn-ghost:visited
+    {
+    margin-top: 2%;
+    }
+
+	 section { padding: 15px 0;}
+	.contact-form {font-size: 90%;}
+	.loginbox{font-size:100%; width: 70%; height:65%; left:15%; top: 45%;}
+	.registerbox{font-size:80%; width: 70%; height: 65%; top:45%; left:15%;}
+	.pregisterbox{font-size:90%}
+	.poststable{font-size:25%;}
+	.poststable a{font-size:80%; padding:0px;}
+
+    .container{
+    Width: 300px;
+    Height: 550px;
+    Top: 50%;
+    
+    
+    }
+    
+    .slide-row{
+        Display: flex;
+        Width: 1400px;  
+        transition:0.5s;
+    }
+    
+    
+    .slide-col{
+    Width: 350px;
+    Height:650px;
+    Position: relative;
+    }
+    
+    .user-text{
+        background-color: #555555;
+        width: 250px;
+        height: 600px;
+        position: absolute;
+        /*left:15%;*/
+        top:40%;
+        transform: translateY(-50%);
+        border-radius: 20px;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    
+    .slide-btn{
+        width: .73rem;
+    height: .73rem;
+    margin: 0 .5rem;
+    }
+
+
+	.slide{
+	    width: 90%;
+	}
+	
+	
+		.center-img{
+	width: 460px;
+	height: 230px;
+
+
+}
+
+.how-img{
+	width: 345px;
+	height: 518px;
+
+}
+	
+    /*----------------------------------------------*/
+    /*  aboutus page styled by yogesh*/
+    /*----------------------------------------------*/
+    .team_mobo_one{
+       opacity:0;
+       display: none;
+     }
+    .team_mobo{
+       opacity:1;
+       display:block;
+   }
+   .bottom_margin{
+    margin-top: 0px;
+    margin-bottom: 50px;
+   }
+   .lead_div{
+    margin: 10% 0;
+   }
+   .hr_one{
+    width:80%;
+    margin: 5px auto 5px auto;
+   }
+
+   
+        /*------------------------------------------------*/
+    /*  services page styled by yogesh*/
+    /*----------------------------------------------*/
+    .services_img_div img{
+        width: 300px;
+        height:200px;
+     }
+     .service_card_div{
+        margin-left:auto;
+        margin-right:auto;
+        margin-bottom:50px;
+    }
+
+      /*----------------------------------------------*/
+      /*  caraousel ui styled by yogesh for freeplan.php */
+      /*------------walkthrough img css--------------*/
+      /*----------------------------------------------*/
+    .walkthrough_img{
+        width:100%;
+        height: 220px;
+        margin: 0 auto 0 auto;
+    }
+      /*----------------------------------------------*/
+      /*  caraousel ui styled by yogesh for freeplan.php */
+      /*------------card animation css disabled--------------*/
+      /*----------------------------------------------*/
+    .card_item_project img:hover{
+        transform:none;
+        border-radius: 5px;
+        z-index: 10;
+        
+      }
+    .p-post-web{
+        display:none;
+    }
+    .p-post-mobile{
+        display:block;
+    }
+    /*----------------------------------------------*/
+      /*  footer links ui styled by yogesh for freeplan.php */
+      /*----------------------------------------------*/
+    .footer_links{
+        display: block;
+    }
+    .footer_links_social{
+       display: flex;
+       align-items: center;
+       justify-content:space-around;
+        
+        
+    }
+    #footer_one{
+        margin:30px 0 30px 0;
+    }
+  
+    
+ /*----------------------------------------------*/
+    /*  index page  styled by yogesh*/
+    /*----------------------------------------------*/
+    h1{
+       font-weight: bold;
+    }
+    .contact-form{
+        width: -moz-fit-content;
+        width:100%;/****code changed****/
+        /* margin: auto 15px; */  /****code changed****/
+    }
+    
+/*----------------------------------------------*/
+/*  freebenefits with designing service styled by yogesh*/
+/*----------------------------------------------*/
+.b_blue .design_heading_white,.b_orange .design_heading_white{
+  font-size:20px;
+}
+.b_orange,.b_blue{
+ width:50%;
+}
+
+/*----------------------------------------------*/
+      /* ui styled by yogesh for construction.php */
+      /*----------------------------------------------*/
+
+    .three{
+		width:98%;
+        margin-left:auto;
+        margin-right:auto;
+
+	}
+    .two{
+        width:98%;
+        margin-left:auto;
+        margin-right:auto; 
+    }
+    
+/*----------------------------------------------*/
+    /*  onesolution settings for mobo version  styled by yogesh*/
+    /*----------------------------------------------*/
+      .solution-img{
+        width: 75%;
+        height: 75%;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit:fill;
+    }
+    /*----------------------------------------------*/
+    /*  our projects for mobo version  styled by yogesh*/
+    /*----------------------------------------------*/
+    .carousel img{
+        width: 100%;
+      }
+      
+    /*----------------------------------------------*/
+    /*  blogs image centering for mobo version  styled by yogesh*/
+    /*----------------------------------------------*/
+	.teams{
+		width:95%;
+		margin-left:2.5%;
+		margin-right:5%;
+	}
+    .blog-img{
+		width:95%;
+	}
+
+
+
+    /* -------------------------------------*/
+/* testimonials section styled by yogesh for mobile version */
+/*------------------------------------------ */
+    
+    
+blockquote .comment{
+    font-size:12px;
+    text-align:center;
+    font-weight:lighter;
+    color:#072957;
+    
+}
+.profile_logo{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  background:#f0f0f0;
+  padding:5px;
+  margin-top: 10px;
+}
+
+ cite{
+    font-size:1em;
+    margin:0 auto 5px auto;
+    display:block;
+    color: #072957;
+    text-align:center;
+} 
+
+  .scroll_div{
+    width:100%;
+    margin:0 auto;
+    display:block;
+    margin:0 auto;
+  }
+  .rev_container{
+    width:95%;
+    height:fit-content;
+    margin:10px auto 0 auto;
+    background:#fff;
+    border-radius: 5px;
+    padding:5px 10px;
+    display: block;
+    text-align: center;
+
+  } 
+/* temporaray code already implemented on the website */
+.teams{
+    width:100%;
+    margin-left:0%;
+     margin-right:0%;
+}
+/*blogs.php css layout for mobo version*/
+    .scroll_div{
+        width:100%;
+        margin:0 auto;
+        display:block;
+        margin:0 auto;
+      }
+ 
+      .blog_container{
+        height:500px;
+        margin:10px auto 10px auto;
+        background:#fff;
+        border-radius: 15px;
+        padding:none;
+        display: block;
+        text-align: center;
+        transition: 0.5s;
+    
+      } 
+      .blog_container .blog_title{
+        font-size:19.5px;
+        padding:5px 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight:500;
+        text-align:left;
+      }
+    .blog_container .blog_paragraph{
+        text-align: justify;
+        font-size:15.5px;
+        padding:0 15px 0 10px;
+        font-family:sans-serif;
+        font-weight:200;
+        line-height: 125%;
+    }
+      .blog_btn{
+        display: flex;
+        float: right;
+        background:#072957;
+        padding:10px 25px;
+        color:white;
+        font-family:sans-serif;
+        font-weight:100;
+        font-size:15px;
+        border-radius:30px 0 0 30px;
+        margin:10px 0;
+    }
+
+    /* code for contact page section */
+    .row .contact_layout_div, .row .contact_layout_div_d{
+        height:fit-content;
+    }
+    #selectOption{
+        width:100%;
+        margin:0 0%;
+    }
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .bpost_section{
+        background:#fff;
+        /* margin-top:40px; */
+        border-radius:5px;
+    }
+}
+
+
